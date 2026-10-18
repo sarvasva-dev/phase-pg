@@ -1,0 +1,13 @@
+{
+  "name": "@phase-pg/db",
+  "version": "1.0.0",
+  "description": "Database layer, migrations, and repository abstractions for PhasePG",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test src/__tests__/**/*.test.js"
+  },
+  "dependencies": {
+    "@phase-pg/common": "*"
+  }
+}
